@@ -1,0 +1,9 @@
+commit means record
+push means upload 
+pull means download
+
+firstly go to cmd
+
+git
+git init
+git status
