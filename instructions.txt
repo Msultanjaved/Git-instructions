@@ -2,8 +2,26 @@ commit means record
 push means upload 
 pull means download
 
-firstly go to cmd
+ * firstly go to cmd *
 
 git
 git init
 git status
+
+git add filename                        -----this is for adding file to list
+git commit -m "this is my nav"          ------this is for add my file to record
+git log  ------this is used to check git logs or records
+
+                  ---------for connecting with live remote git------
+git init
+
+git add .
+
+git remote add Name <your-git-url>
+git remote -v                          ----this is to view remote status---
+
+git push name master                   ----this is used to upload files to live folder on github-----
+
+git commit -m "<your-message-here>"
+
+git push cat master
