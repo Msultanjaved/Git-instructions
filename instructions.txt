@@ -22,6 +22,8 @@ git remote -v                          ----this is to view remote status---
 
 git push name master                   ----this is used to upload files to live folder on github-----
 
-git commit -m "<your-message-here>"
+              ------for pulling files from server or live folder to local-----
 
-git push cat master
+git pull name master
+         (if the pull command does not fetch the new file from live folder then we used this command)
+ git pull name master --allow-unrelated-histories
